@@ -7,4 +7,4 @@
          },
          templateUrl: './components/weatherTable/weatherTable.html'
      })
-})()
+})();
