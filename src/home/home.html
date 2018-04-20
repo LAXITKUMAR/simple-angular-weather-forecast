@@ -1,0 +1,10 @@
+<div class="row">
+    <div class=" col-md-4 input-group mb-3">
+        <input type="text" name="city" data-ng-model="homeCtrl.cityName" class="form-control" placeholder="City Name" aria-label="City Name"
+            aria-describedby="City Name">
+    </div>
+    <div class="col-md-2">
+        <button type="button" class="btn btn-primary" data-ng-click="homeCtrl.search()">Submit</button>
+    </div>
+</div>
+<weather-table data="homeCtrl.cityList"></weather-table>

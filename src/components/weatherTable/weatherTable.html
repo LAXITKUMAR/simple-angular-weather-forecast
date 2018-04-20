@@ -1,0 +1,22 @@
+<table class="table">
+    <thead>
+        <tr>
+            <th scope="col">City</th>
+            <th scope="col">Temperature</th>
+            <th scope="col">Pressure</th>
+            <th scope="col">Humidity</th>
+            <th scope="col">Minimum temperature</th>
+            <th scope="col">Maximum temperature</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr ng-repeat="(city,value) in $ctrl.data">
+            <td>{{ city }}</td>
+            <td>{{ value['temp'] }}</td>
+            <td>{{ value['pressure'] }}</td>
+            <td>{{ value['humidity'] }}</td>
+            <td>{{ value['temp_min'] }}</td>
+            <td>{{ value['temp_max'] }}</td>
+        </tr>
+    </tbody>
+</table>

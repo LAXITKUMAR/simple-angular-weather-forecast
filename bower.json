@@ -1,0 +1,31 @@
+{
+  "name": "simple-angular-weather-forcast",
+  "description": "Simple Angular API call to display weather of a city",
+  "main": "index.html",
+  "authors": [
+    "LAXIT KUMAR <kumar.laxit@gmail.com>"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "angular",
+    "weather",
+    "forcast",
+    "ui"
+  ],
+  "homepage": "index.html",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "lib",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.6.10",
+    "angular-ui-router": "^1.0.15",
+    "bootstrap": "^4.1.0",
+    "jquery": "^3.3.1"
+  }
+}

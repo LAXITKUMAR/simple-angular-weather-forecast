@@ -1,0 +1,55 @@
+{
+  "name": "simple-angular-weather-forcast",
+  "version": "1.0.0",
+  "description": "Simple Angular API call to display weather of a city",
+  "main": "index.html",
+  "scripts": {
+    "postinstall": "bower cache clean && bower install && gulp build",
+    "prestart": "npm install",
+    "start": "gulp serve",
+    "test": "karma start",
+    "test-single-run": "karma start karma.conf.js --single-run"
+  },
+  "devDependencies": {
+    "angular-mocks": "^1.6.10",
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "cors": "^2.8.4",
+    "eslint": "^4.19.1",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^7.0.1",
+    "gulp-connect": "^5.5.0",
+    "gulp-filter": "^5.1.0",
+    "gulp-jshint": "^2.1.0",
+    "gulp-load-plugins": "^1.5.0",
+    "gulp-plumber": "^1.2.0",
+    "gulp-uglify": "^3.0.0",
+    "gulp-useref": "^3.1.5",
+    "gulp-util": "^3.0.8",
+    "gulp-watch": "^5.0.0",
+    "jasmine-core": "^3.1.0",
+    "jshint": "^2.9.5",
+    "jshint-stylish": "^2.2.1",
+    "karma": "^2.0.0",
+    "karma-chrome-launcher": "^2.2.0",
+    "karma-cli": "^1.0.1",
+    "karma-coverage": "^1.1.1",
+    "karma-jasmine": "^1.1.1",
+    "open": "0.0.5",
+    "rimraf": "^2.6.2",
+    "run-sequence": "^2.2.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LAXITKUMAR/"
+  },
+  "keywords": [
+    "angular",
+    "weather",
+    "forcast",
+    "ui"
+  ],
+  "author": "LAXIT KUMAR <kumar.laxit@gmail.com>",
+  "license": "ISC"
+}
