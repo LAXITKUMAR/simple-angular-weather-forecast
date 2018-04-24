@@ -16,12 +16,15 @@ module.exports = function(config) {
     // list of files / patterns to load in the browser
     files: [
       'lib/jquery/dist/jquery.min.js',
+      'node_modules/jasmine-jquery/lib/jasmine-jquery.js',
       'lib/bootstrap/dist/js/bootstrap.min.js',
       'lib/angular/angular.js',
       'lib/angular-ui-router/release/angular-ui-router.js',
       'node_modules/angular-mocks/angular-mocks.js',
       'src/**/*.js',
-      'test/**/*Spec.js'
+      'test/**/*Spec.js',
+      // fixtures
+      {pattern: 'test/server/*.json', watched: true, served: true, included: false}
     ],
 
 
@@ -40,7 +43,7 @@ module.exports = function(config) {
     // test results reporter to use
     // possible values: 'dots', 'progress'
     // available reporters: https://npmjs.org/browse/keyword/karma-reporter
-    reporters: ['progress'],
+    reporters: ['progress', 'coverage'],
 
 
     // web server port
@@ -62,7 +65,7 @@ module.exports = function(config) {
 
     // start these browsers
     // available browser launchers: https://npmjs.org/browse/keyword/karma-launcher
-    browsers: ['Chrome'],
+    browsers: ['Chrome', 'PhantomJS'],
 
 
     // Continuous Integration mode
