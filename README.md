@@ -13,4 +13,7 @@ Steps to run test:
 Steps to run test(single run):
     ``` npm run test-single-run ```
 
+Steps to run E2E tests:
+    ``` npm run test:e2e ```
+
 
