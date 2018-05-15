@@ -4,16 +4,17 @@ Simple Angular Weather Forecast
 Steps to build and run the project in dev environment:
     ``` npm start ```
 
-run the project in prod environment:
-    ``` gulp serve:prod ```
+Steps to run the project in prod environment:
+    1.``` npm run serve-prod ```
+    2.Then go to http://localhost:9001
 
-Steps to run test:
+Command to run unit tests:
     ``` npm test ```
 
-Steps to run test(single run):
+Command to run unit tests(single run):
     ``` npm run test-single-run ```
 
-Steps to run E2E tests:
+Command to run E2E/Functional tests:
     ``` npm run test:e2e ```
 
 
