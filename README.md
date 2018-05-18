@@ -2,7 +2,7 @@
 Simple Angular Weather Forecast
 
 Steps to build and run the project in dev environment:
-    ``` npm start ```
+    ``` npm start ```  NOTE: This command requires bower to be preinstalled. If bower is not installed globally please run ``` npm i bower ``` before running this command.
 
 Steps to run the project in prod environment:
     1.``` npm run serve-prod ```
