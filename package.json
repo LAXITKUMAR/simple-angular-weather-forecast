@@ -12,7 +12,9 @@
     "webdriver-start": "webdriver-manager update && webdriver-manager start --standalone",
     "serve-prod": "gulp serve:prod",
     "protractor-start": "wait-on http://localhost:4444 && protractor ./test/integration/protractor-conf.js",
-    "test:e2e": "npm-run-all -p -r webdriver-start serve-prod protractor-start"
+    "cypress-run": "wait-on http://localhost:9001 && cypress open",
+    "test:e2e": "npm-run-all -p -r webdriver-start serve-prod protractor-start",
+    "test:cypress": "npm-run-all -p -r serve-prod cypress-run"
   },
   "devDependencies": {
     "angular-mocks": "^1.6.10",
@@ -20,6 +22,7 @@
     "babel-core": "^6.26.0",
     "babel-preset-es2015": "^6.24.1",
     "cors": "^2.8.4",
+    "cypress": "^2.1.0",
     "eslint": "^4.19.1",
     "gulp": "^3.9.1",
     "gulp-babel": "^7.0.1",

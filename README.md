@@ -16,7 +16,10 @@ You can find the coverage report generated in the coverage folder.
 Command to run unit tests(single run):
     ``` npm run test-single-run ```
 
-Command to run E2E/Functional tests:
+Command to run E2E/Functional tests (Protractor based):
     ``` npm run test:e2e ```
 
+Command to run E2E/Functional tests (Cypress.io based) :
+    ``` npm run test:cypress ```
+    Once cypress id opened click on the sawf-spec.js file. Tests will start running.
 
