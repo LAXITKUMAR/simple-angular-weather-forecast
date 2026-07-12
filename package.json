@@ -53,7 +53,7 @@
     "rimraf": "2.6.2",
     "run-sequence": "2.2.1",
     "wait-on": "2.1.0",
-    "webdriver-manager": "12.0.6"
+    "webdriver-manager": "12.1.9"
   },
   "repository": {
     "type": "git",
